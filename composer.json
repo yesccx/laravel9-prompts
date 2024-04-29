@@ -1,7 +1,7 @@
 {
-    "name": "laravel/prompts",
+    "name": "yesccx/laravel9-prompts",
     "type": "library",
-    "description": "Add beautiful and user-friendly forms to your command-line applications.",
+    "description": "Fork from the laravel/prompts，Add support for Laravel9",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -19,7 +19,7 @@
     "require": {
         "php": "^8.1",
         "ext-mbstring": "*",
-        "illuminate/collections": "^10.0|^11.0",
+        "illuminate/collections": "^9.0|^10.0|^11.0",
         "symfony/console": "^6.2|^7.0"
     },
     "require-dev": {
